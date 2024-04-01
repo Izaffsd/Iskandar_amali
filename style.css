@@ -158,7 +158,7 @@ nav ul li a#active{
     background: #005b65;
     border: 0;
     cursor: pointer;
-    transition: .7s;
+    transition: 0.7s;
     right: 80px;
     
 }
@@ -398,13 +398,15 @@ button .cv {
 /* About Section */
 
 .aboutme{ 
-  margin-left: 90px;
-  /* text-align: center; */
-    margin-top: 35px;
-    font-size: 30px;
-    font-weight: 800;
+  text-align: center;
+  font-size: 31px;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  margin: 14px;
+    margin-top: 28px;
     position: relative;
-    /* bottom: 30px; */
+    right: 480px;
+    
 }
 .about {
   position: relative;
@@ -570,9 +572,9 @@ article.mecard:hover .infos .details {
 
 /* start services */
 .titleserv {
-    font-size: 27px;
+    font-size: 17px;
     font-weight: 100;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     font-family: 'Trebuchet MS';
 }
 
@@ -584,12 +586,12 @@ article.mecard:hover .infos .details {
   font-family: 'Trebuchet MS';
   
 }
-h2 {
+/* h2 {
   margin-top: 20px;
-  font-size: 32px;
+  font-size: 31px;
   font-weight: bold;
   font-family: 'Trebuchet MS';
-}
+} */
 
 
 /* start expertise */
@@ -638,7 +640,8 @@ h2 {
 }
 .gamc{
   position: relative;
-  left: 35%;
+  margin-left: 125px;
+  /* left: 35%; */
 }
 .gamcw{
   position: relative;
@@ -719,11 +722,14 @@ h2 {
 
 
 h3{
+  position: relative;
+  top: 20px;
   text-align: center;
-  font-size: 33px;
+  font-size: 30px;
   font-family: 'Trebuchet MS';
   font-weight: bold;
   margin: 14px;
+  
 }
 h4{
   margin-top: 8px;
@@ -754,10 +760,18 @@ h4{
   font-family: 'sans-serif';
   
 }
+.botport1{
+  text-align: center;
+  font-size: 17px;
+  position: relative;
+  margin-bottom: 37px;;
+}
 .botport{
   text-align: center;
   font-size: 17px;
-  margin-bottom: 20px;
+  position: relative;
+  top: 20px;
+  
 }
 body .credit {
   position: absolute;
@@ -775,6 +789,10 @@ body .options {
   width: calc(100% - 100px);
   height: 410px;
   margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 35px;
+  
+  padding: 10px;
   
 }
 
@@ -889,21 +907,31 @@ body .options .option .label .info {
 
 .title {
   position: relative;
-  bottom: 530px;
-  left: 250px;
+  top: 20px;
+  text-align: center;
+  font-size: 28px;
   font-family: 'Trebuchet MS';
+  font-weight: bold;
+  /* margin: 14px; */
+  margin-bottom: 20px;
+  bottom: 1030px;
+  margin-left: 500px;
+  /* left: 240px; */
+  
 }
 
 form {
   position: relative;
-  width: 50%;
+  width: 45%;
   align-self: center;
   bottom: 500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+  
+  gap: 10px;
   left: 600px;
+  margin-left: 17px;
 }
 form > input {
   border: none;
@@ -924,6 +952,7 @@ form > textarea {
   outline: none;
   font-size: 16px;
   font-family: 'Trebuchet MS';
+  margin-top: 20px;
 }
 
 /* form > a {
@@ -941,11 +970,11 @@ form > textarea {
   margin: auto;
 } */
 
-.frame {
+/* .frame {
   width: 90%;
   margin: 40px auto;
   text-align: center;
-}
+} */
 /* button {
   margin: 70px;
 } */
@@ -955,7 +984,7 @@ form > textarea {
   width: 230px;
   height: 40px;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 10px 25px;
   font-family: 'Trebuchet MS';
   font-weight: 200;
@@ -967,13 +996,15 @@ form > textarea {
    box-shadow:inset 2px 2px 2px 0px rgba(0, 0, 0, 0.347),
    7px 7px 20px 0px rgba(0, 0, 0, 0.269);
   outline: none;
+  top: 30px;
+  left: 190px;
 }
 
 .btn-3 {
   background: #005b65;
   background: linear-gradient( #006170, #005b65ab 100%);
-  width: 230px;
-  height: 40px;
+  width: 160px;
+  height: 35px;
   line-height: 42px;
   padding: 0;
   border: none;
@@ -984,9 +1015,10 @@ form > textarea {
   display: block;
   width: 100%;
   height: 100%;
+  /* font-size: 20px; */
   color: rgb(255, 255, 255);
-  font-size: 28px;
-  line-height: 1.4;
+  font-size: 24px;
+  line-height: 1.5;
 }
 .btn-3:before,
 .btn-3:after {
